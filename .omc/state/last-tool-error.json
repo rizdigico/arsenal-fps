@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"# Try installing cloudflared via package manager\\ncurl -L https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null 2>&1\\necho \\\"deb [sig...",
-  "error": "Exit code 100\n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100  2279  100  2279    0     0  14462      0 --:--:-- --:--:-- --:--:-- 14515",
-  "timestamp": "2026-06-23T18:59:52.410Z",
+  "tool_input_preview": "{\"command\":\"# Enable GitHub Pages from master branch\\ngh api repos/rizdigico/arsenal-fps/pages -X POST -f source.branch=master -f source.path=/ 2>&1\",\"description\":\"Enable GitHub Pages\"}",
+  "error": "Exit code 1\n{\"message\":\"Invalid request.\\n\\nInvalid input: data matches no possible input. See `documentation_url`.\",\"documentation_url\":\"https://docs.github.com/rest/pages/pages#create-a-apiname-pages-site\",\"status\":\"422\"}gh: Invalid request.\n\nInvalid input: data matches no possible input. See `documentation_url`. (HTTP 422)",
+  "timestamp": "2026-06-23T19:01:28.224Z",
   "retry_count": 1
 }
