@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"# Try installing cloudflared via package manager\\ncurl -L https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null 2>&1\\necho \\\"deb [sig...",
+  "error": "Exit code 100\n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100  2279  100  2279    0     0  14462      0 --:--:-- --:--:-- --:--:-- 14515",
+  "timestamp": "2026-06-23T18:59:52.410Z",
+  "retry_count": 1
+}
